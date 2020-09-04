@@ -55,7 +55,7 @@ i.fas{
 
 /* FIM Style LOGIN */
 
-/* Style da página PROFISSIONAL */
+/* Style MASTER */
 
 body.principal {
     background-color: #12DAFA;
@@ -68,13 +68,19 @@ body.principal {
     color: #28a745;
 }
 
-#content_profissional{
-    height: 75%;
+/*FIM Master*/
+
+/* Style da página PROFISSIONAL */
+
+#content_profissional {
+    height: 442px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#content_profissional_buttons{
-    width:50%; 
-
+#content_profissional_buttons {
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* FIM Style PROFISSIONAL */
