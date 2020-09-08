@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Principal.master.vb" Inherits="WebApp.Principal" %>
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/toastr.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d7a880eefe.js"></script>
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bootbox.min.js"></script>
+    <script src="Scripts/toastr.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="principal">
+    <form id="form1" runat="server">
+        <style>
+            body{
+                background-color: #12DAFA;
+            }
+        </style>
+        <div>
+            <div id="header">
+                <nav class="navbar navbar-light" >
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/Logo_02.jpeg" class="rounded" width="100" height="100" alt="" loading="lazy">
+                    </a>
+                    <div class="form-check form-check-inline">
+                        <asp:Button ID="btnUsuario" runat="server" CssClass="btn btn-link" ForeColor="#28a745" Text="[Usuario]" />
+                        <asp:Label ID="lblUsuario" runat="server"  Text=""><i class="fas fa-user" style=" color: #28a745;"></i></asp:Label>
+                    </div>
+                </nav>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
