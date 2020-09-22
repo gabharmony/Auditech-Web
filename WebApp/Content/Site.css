@@ -84,3 +84,42 @@ body.principal {
 }
 
 /* FIM Style PROFISSIONAL */
+
+/* Style da página PROFISSIONAL */
+
+#pacientes {
+    background-color: #1697FB;
+    width: auto;
+    height: 382px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+.btnpaciente {
+    width: 184px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.card-body{
+    padding: 1px;
+}
+
+.pacnteimg {
+    left: 50px;
+    width: 162px;
+    height: 162px;
+    border-color: #12DAFA;
+    border-style: solid;
+}
+
+#content_telainicial_buttons {
+    padding-top: 12px;
+    width: 100%;
+    margin: 0 auto;
+}
