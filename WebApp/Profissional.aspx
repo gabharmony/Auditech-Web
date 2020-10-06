@@ -1,18 +1,15 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Principal.Master" CodeBehind="Profissional.aspx.vb" Inherits="WebApp.Profissional" %>
+﻿<%@ Page Title="Meu Perfil" Language="vb" AutoEventWireup="false" MasterPageFile="~/Principal.Master" CodeBehind="Profissional.aspx.vb" Inherits="WebApp.Profissional" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <meta charset="utf-8" />
-    <title>Meu Perfil</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="content_profissional">
         <br><br>
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-6">
                     <asp:Label ID="lblID" runat="server" Font-Size="17px" Font-Bold="true" Text="ID: "></asp:Label>
                     <asp:Label ID="lblValorID" runat="server" Text=""></asp:Label>
                 </div>
-                    <div class="col-6 col-sm-2"></div>
                 <div class="col-6 col-sm-4">
                     <asp:Label ID="lblNome" runat="server" Font-Size="17px" Font-Bold="true" Text="Nome: "></asp:Label>
                     <asp:Label ID="lblValorNome" runat="server" Text=""></asp:Label>
@@ -25,11 +22,10 @@
                 </div>
                 <br /><br />
                 <div class="w-100 d-none d-md-block"></div>
-                <div class="col-6 col-sm-4">
+                <div class="col-6 col-sm-6">
                     <asp:Label ID="lblEndereco" runat="server" Font-Size="17px" Font-Bold="true" Text="Endereço: "></asp:Label>
                     <asp:Label ID="lblValorEndereco" runat="server" Text=""></asp:Label>
                 </div>
-                    <div class="col-6 col-sm-2"></div>
                 <div class="col-6 col-sm-4">
                     <asp:Label ID="lblNumero" runat="server" Font-Size="17px" Font-Bold="true" Text="Número: "></asp:Label>
                     <asp:Label ID="lblValorNumero" runat="server" Text=""></asp:Label>

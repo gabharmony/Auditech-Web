@@ -1,6 +1,5 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Principal.Master" CodeBehind="TelaInicial.aspx.vb" Inherits="WebApp.TelaInicial" %>
+﻿<%@ Page Title="Início" Language="vb" AutoEventWireup="false" MasterPageFile="~/Principal.Master" CodeBehind="TelaInicial.aspx.vb" Inherits="WebApp.TelaInicial" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <title>Início</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">

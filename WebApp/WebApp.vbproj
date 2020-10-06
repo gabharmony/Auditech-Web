@@ -278,6 +278,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="TelaInicial.aspx" />
+    <Content Include="Tratamento.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -360,6 +361,13 @@
     </Compile>
     <Compile Include="TelaInicial.aspx.vb">
       <DependentUpon>TelaInicial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Tratamento.aspx.designer.vb">
+      <DependentUpon>Tratamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamento.aspx.vb">
+      <DependentUpon>Tratamento.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
