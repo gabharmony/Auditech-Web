@@ -85,7 +85,7 @@ body.principal {
 
 /* FIM Style PROFISSIONAL */
 
-/* Style da página PROFISSIONAL */
+/* Style da página TELA INICIAL */
 
 #pacientes {
     background-color: #1697FB;
@@ -123,3 +123,42 @@ body.principal {
     width: 100%;
     margin: 0 auto;
 }
+
+/* FIM Style TELA INICIAL */
+
+/* Style da página TRATAMENTO*/
+
+div.navbar-nav{
+    width: 85%;
+}
+
+#infoExer{
+    padding-left: 3px;
+}
+
+#dt{
+    text-align: left;
+}
+
+#exc{
+    text-align: center;
+}
+
+#parametros{
+    text-align: justify;
+}
+
+#observacao{
+    text-align: left;
+}
+
+input.txt-obs{
+    width: 100%;
+    height: 165px;
+    max-width: none;
+}
+
+#content_bt_tratamento{
+    text-align: left;
+}
+/* FIM Style TRATAMENTO*/
