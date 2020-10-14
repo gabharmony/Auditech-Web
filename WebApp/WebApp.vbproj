@@ -130,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="CadastroPa.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -177,6 +178,9 @@
     <Content Include="Principal.Master" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="ConfirmarPa.aspx" />
+    <Content Include="ConsultarPa.aspx" />
+    <Content Include="EditarPr.aspx" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
@@ -292,6 +296,13 @@
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="CadastroPa.aspx.designer.vb">
+      <DependentUpon>CadastroPa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroPa.aspx.vb">
+      <DependentUpon>CadastroPa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
@@ -383,6 +394,27 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmarPa.aspx.designer.vb">
+      <DependentUpon>ConfirmarPa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmarPa.aspx.vb">
+      <DependentUpon>ConfirmarPa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ConsultarPa.aspx.designer.vb">
+      <DependentUpon>ConsultarPa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarPa.aspx.vb">
+      <DependentUpon>ConsultarPa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EditarPr.aspx.designer.vb">
+      <DependentUpon>EditarPr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPr.aspx.vb">
+      <DependentUpon>EditarPr.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
