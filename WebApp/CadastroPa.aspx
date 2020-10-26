@@ -110,5 +110,5 @@
     <br />
     </div>
         <asp:Button ID="btnSalvar" runat="server" CssClass="btn btn-primary btn-lg" BackColor="#1198ff" Width="120px" Text="Salvar" />
-    <asp:Button ID="btnVoltar" runat="server" CssClass="btn btn-primary btn-lg" Width="120px" Text="Voltar" />
+        <asp:Button ID="btnVoltar" runat="server" CssClass="btn btn-primary btn-lg" Width="120px" Text="Voltar" OnClientClick="redirect(TelaInicial.aspx)" />
 </asp:Content>

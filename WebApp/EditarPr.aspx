@@ -54,5 +54,5 @@
     <br />
     <br />
     <asp:Button ID="btnSalvar" runat="server" CssClass="btn btn-primary btn-lg" BackColor="#1198ff" Width="120px" Text="Salvar" />
-    <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-primary btn-lg" Width="120px" Text="Voltar" />
+    <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-primary btn-lg" Width="120px" Text="Cancelar" />
 </asp:Content>
